@@ -11,7 +11,7 @@ const bot = new Bot(token);
 
 bot.command("start", (ctx) =>
   ctx.reply(
-    "Привет. Бот запущен. Позже здесь будет поиск по списку ФШУ; пока заглушка."
+    'Hi!'
   )
 );
 
