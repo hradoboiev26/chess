@@ -2,3 +2,7 @@ node_modules/
 .env
 .DS_Store
 *.log
+
+# Local rating exports from ukrchess (large binaries; keep folder in repo via .gitkeep)
+data/rating/*
+!data/rating/.gitkeep
